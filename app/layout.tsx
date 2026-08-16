@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sigey Kunpage Enoch | Business Computing Student",
+  title: "Sigey Kunpage Enoch | Business Computing Student & Technology Professional",
   description:
-    "Official personal website and portfolio of Sigey Kunpage Enoch, a Business Computing student at the University for Business and Integrated Development Studies (UBIDS), Ghana.",
+    "Portfolio of Sigey Kunpage Enoch, a Business Computing student at the University for Business and Integrated Development Studies (UBIDS), Ghana, with interests in web development, databases, data fundamentals, cybersecurity, and digital solutions.",
   keywords: [
     "Sigey Kunpage Enoch",
     "Sigey Enoch",
@@ -23,8 +23,12 @@ export const metadata: Metadata = {
     "UBIDS",
     "Ghana",
     "Web Development",
-    "Data Analysis",
+    "Next.js",
+    "React",
+    "Databases",
+    "Data Fundamentals",
     "Cybersecurity",
+    "RentLink",
   ],
 };
 

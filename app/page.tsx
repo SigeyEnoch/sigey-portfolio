@@ -34,124 +34,142 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="hero">
-        <div className="profile-image">
-  <img
-    src="/profile.jpg"
-    alt="Sigey Kunpage Enoch"
-  />
-</div>
-        <div className="hero-content">
-          <p className="welcome">WELCOME TO MY WEBSITE</p>
+     <section className="hero">
+  <div className="profile-image">
+    <img
+      src="/profile.jpg"
+      alt="Sigey Kunpage Enoch"
+    />
+  </div>
 
-          <h1>
-            Hi, I'm <span>Sigey Kunpage Enoch</span>
-          </h1>
+  <div className="hero-content">
+    <p className="welcome">WELCOME TO MY WEBSITE</p>
 
-          <h2>Business Computing Student & Technology Enthusiast</h2>
+    <h1>
+      Hi, I'm <span>Sigey Kunpage Enoch</span>
+    </h1>
 
-          <p>
-            I am a Business Computing student at the University for Business
-            and Integrated Development Studies (UBIDS), passionate about
-            technology, data, cybersecurity and building digital solutions
-            that solve real-world problems.
-          </p>
+    <h2>Business Computing Student & Aspiring Technology Professional</h2>
 
-          <div className="hero-buttons">
-            <a href="#projects" className="primary-button">
-              View My Projects
-            </a>
+    <p>
+     
+  Sigey Kunpage Enoch is a Business Computing student at the University
+  for Business and Integrated Development Studies (UBIDS), developing
+  skills in web development, databases, data fundamentals, and
+  cybersecurity. His work focuses on building digital solutions that
+  address practical problems.
 
-            <a href="#contact" className="secondary-button">
-              Contact Me
-            </a>
-          </div>
-        </div>
-      </section>
+    </p>
+
+    <div className="hero-buttons">
+      <a href="#projects" className="primary-button">
+        View My Projects
+      </a>
+
+      <a href="#contact" className="secondary-button">
+        Contact Me
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* About */}
-      <section id="about" className="section">
-        <div className="container">
-          <p className="section-label">ABOUT ME</p>
+    <section id="about" className="section">
+  <div className="container">
+    <p className="section-label">ABOUT ME</p>
 
-          <h2>Who I Am</h2>
+    <h2>Who I Am</h2>
 
-          <p>
-            My name is Sigey Kunpage Enoch, and I come from Piree, a village
-            in the Nadowli-Kaleo Constituency of Ghana's Upper West Region.
-          </p>
+    <p>
+      Sigey Kunpage Enoch is a Business Computing student at the University
+      for Business and Integrated Development Studies (UBIDS) in Wa, Ghana.
+      He is developing skills in web development, databases, data fundamentals,
+      cybersecurity, and business information systems.
+    </p>
 
-          <p>
-            I completed my Senior High School education at St. Ignatius of
-            Loyola Senior High School in the Wa West District. I am currently
-            pursuing a Bachelor of Science in Business Computing at the
-            University for Business and Integrated Development Studies
-            (UBIDS) in Wa.
-          </p>
+    <p>
+      He is interested in using technology to solve practical problems and
+      develop useful digital solutions. His current work includes RentLink,
+      a digital house-rental platform designed to make it easier for
+      landlords to list properties and for potential tenants to discover
+      available accommodation.
+    </p>
 
-          <p>
-            I have earned certificates from IBM in areas including Data
-            Analysis and Cybersecurity Fundamentals. I am continuously
-            developing my technical and professional skills through academic
-            work and personal projects.
-          </p>
-
-          <p>
-            I am currently working on several technology projects, including
-            an application designed to make it easier for people to find
-            houses for rent.
-          </p>
-        </div>
-      </section>
-
+    <p>
+      Sigey has earned IBM certificates in Data Fundamentals and Cybersecurity
+      Fundamentals as part of his ongoing technical and professional
+      development.
+    </p>
+  </div>
+</section>
       {/* Skills */}
-      <section id="skills" className="section skills-section">
-        <div className="container">
-          <p className="section-label">MY SKILLS</p>
+    <section id="skills" className="section skills-section">
+  <div className="container">
+    <p className="section-label">MY SKILLS</p>
 
-          <h2>What I Work With</h2>
+    <h2>What I Work With</h2>
 
-          <div className="skills-grid">
-            <div className="skill-card">
-              <h3>Web Development</h3>
-              <p>HTML, CSS and JavaScript</p>
-            </div>
+    <div className="skills-grid">
 
-            <div className="skill-card">
-              <h3>Frontend Development</h3>
-              <p>React and Next.js</p>
-            </div>
+      <div className="skill-card">
+        <h3>Web Development</h3>
+        <p>HTML, CSS and JavaScript</p>
+      </div>
 
-            <div className="skill-card">
-              <h3>Database Management</h3>
-              <p>SQL and Supabase</p>
-            </div>
+      <div className="skill-card">
+        <h3>Frontend Development</h3>
+        <p>React and Next.js</p>
+      </div>
 
-            <div className="skill-card">
-              <h3>Python Programming</h3>
-              <p>Programming and problem solving</p>
-            </div>
+      <div className="skill-card">
+        <h3>Database Management</h3>
+        <p>SQL, Supabase and database concepts</p>
+      </div>
 
-            <div className="skill-card">
-              <h3>Data Analysis</h3>
-              <p>Data analysis and visualization</p>
-            </div>
+      <div className="skill-card">
+        <h3>Python Programming</h3>
+        <p>Programming and problem solving</p>
+      </div>
 
-            <div className="skill-card">
-              <h3>Cybersecurity</h3>
-              <p>Cybersecurity fundamentals</p>
-            </div>
+      <div className="skill-card">
+        <h3>Data Fundamentals</h3>
+        <p>Foundational data concepts and practices</p>
+        <p>Issued: November 21, 2025</p>
 
-            <div className="skill-card">
-              <h3>Business Information Systems</h3>
-              <p>Technology and business processes</p>
-            </div>
-          </div>
+        <div className="certification-links">
+          <a
+            href="/certificates/data-fundamentals.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Certificate
+          </a>
+
+          <a
+            href="https://www.credly.com/badges/932fcaf6-6ddb-4990-bc6f-9c7db7e19537"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Verify Credential
+          </a>
         </div>
-      </section>
+      </div>
 
+      <div className="skill-card">
+        <h3>Cybersecurity</h3>
+        <p>Cybersecurity fundamentals and security awareness</p>
+      </div>
+
+      <div className="skill-card">
+        <h3>Business Information Systems</h3>
+        <p>Technology, databases and business processes</p>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* Projects */}
-      <section id="projects" className="section">
+    <section id="projects" className="section">
   <div className="container">
     <p className="section-label">PROJECTS</p>
 
@@ -164,11 +182,10 @@ export default function Home() {
         <h3>RentLink</h3>
 
         <p>
-          RentLink is a digital house-rental platform I am developing to
-          make it easier for people to discover available houses for rent.
-          The platform is designed to allow landlords to upload property
-          information and images while helping potential tenants find
-          suitable accommodation more easily.
+          RentLink is a digital house-rental platform currently in development.
+          The project is designed to make it easier for people to discover
+          available houses for rent while providing landlords with a platform
+          to list property information and images.
         </p>
 
         <h4>Key Features</h4>
@@ -179,6 +196,8 @@ export default function Home() {
           <li>Landlord property uploads</li>
           <li>Database-backed property management</li>
         </ul>
+
+        <h4>Technologies</h4>
 
         <div className="project-tags">
           <span>Next.js</span>
@@ -198,52 +217,65 @@ export default function Home() {
     </p>
   </div>
 </section>
-
       {/* Education */}
-      <section id="education" className="section education-section">
-        <div className="container">
-          <p className="section-label">EDUCATION</p>
+     <section id="education" className="section education-section">
+  <div className="container">
+    <p className="section-label">EDUCATION</p>
 
-          <h2>My Education</h2>
+    <h2>My Education</h2>
 
-          <div className="education-card">
-            <p className="education-year">CURRENT</p>
+    <div className="education-card">
+      <p className="education-year">CURRENT</p>
 
-            <h3>BSc Business Computing</h3>
+      <h3>BSc Business Computing</h3>
 
-            <p>
-              University for Business and Integrated Development Studies
-              (UBIDS)
-            </p>
+      <p>
+        University for Business and Integrated Development Studies (UBIDS)
+      </p>
 
-            <p>Wa, Ghana</p>
-          </div>
+      <p>Wa, Ghana</p>
 
-          <div className="education-card">
-            <p className="education-year">SENIOR HIGH SCHOOL</p>
+      <p>
+        Currently pursuing my degree with a focus on computing, technology,
+        databases, and business information systems.
+      </p>
+    </div>
 
-            <h3>St. Ignatius of Loyola Senior High School</h3>
+    <div className="education-card">
+      <p className="education-year">SENIOR HIGH SCHOOL</p>
 
-            <p>Wa West District, Ghana</p>
-          </div>
-        </div>
-      </section>
+      <h3>St. Ignatius of Loyola Senior High School</h3>
 
-      {/* Certifications */}
-      <section id="certifications" className="section certifications-section">
+      <p>Wa West District, Ghana</p>
+    </div>
+  </div>
+</section>
+
+     {/* Certifications */}
+<section id="certifications" className="section certifications-section">
   <div className="container">
     <p className="section-label">CERTIFICATIONS</p>
 
     <h2>Professional Development</h2>
 
     <div className="certifications-grid">
+
       <div className="certification-card">
         <p className="certification-provider">IBM</p>
-        <h3>Data Analysis</h3>
+        <h3>Data Fundamentals</h3>
         <p>
-          Certificate demonstrating training and knowledge in data analysis
-          concepts and techniques.
+          Certificate demonstrating foundational knowledge of data concepts,
+          data practices, and essential data skills.
         </p>
+
+        <a
+          href="/certificates/data%20fundamentals.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="certificate-button"
+        >
+          View Certificate
+        </a>
       </div>
 
       <div className="certification-card">
@@ -251,9 +283,19 @@ export default function Home() {
         <h3>Cybersecurity Fundamentals</h3>
         <p>
           Certificate demonstrating foundational knowledge of cybersecurity
-          concepts, practices and security awareness.
+          concepts, practices, and security awareness.
         </p>
+
+        <a
+          href="/certificates/cybersecurity%20fundamentals.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="certificate-button"
+        >
+          View Certificate
+        </a>
       </div>
+
     </div>
   </div>
       </section>
@@ -298,16 +340,44 @@ export default function Home() {
     </div>
   </div>
 </section>
+<div className="certification-card">
+  <p className="certification-provider">IBM SkillsBuild</p>
+  <h3>Cybersecurity Fundamentals</h3>
+  <p>
+    Certificate demonstrating foundational knowledge and skills in
+    cybersecurity concepts.
+  </p>
+  <p>Issued: April 4, 2026</p>
+
+  <div className="certification-links">
+    <a
+      href="/certificates/cybersecurity-fundamentals.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Certificate
+    </a>
+
+    <a
+      href="https://www.credly.com/badges/6b78be16-40bb-4960-a708-c2b085ed41cb"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Verify Credential
+    </a>
+  </div>
+</div>
       {/* Contact */}
-      <section id="contact" className="section contact-section">
+     <section id="contact" className="section contact-section">
   <div className="container">
     <p className="section-label">CONTACT</p>
 
     <h2>Let's Connect</h2>
 
     <p>
-      I'm always interested in learning, building new projects and
-      connecting with people interested in technology and innovation.
+      I'm always interested in learning, developing new projects, and
+      connecting with people who share an interest in technology,
+      innovation, and digital solutions.
     </p>
 
     <p className="email-address">
@@ -320,8 +390,8 @@ export default function Home() {
     >
       Send Me an Email
     </a>
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* Footer */}
       <footer>
