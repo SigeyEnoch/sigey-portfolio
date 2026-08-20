@@ -28,7 +28,7 @@ export default function Home() {
   <a href="#projects">Projects</a>
   <a href="#education">Education</a>
   <a href="#certifications">Certifications</a>
-  <a href="#photos">Photos</a>
+
   <a href="#contact">Contact</a>
 </div>
         </div>
@@ -66,99 +66,6 @@ export default function Home() {
       <a href="#projects" className="primary-button">
         View My Projects
       </a>
-<section id="photos" className="section photos-section">
-  <div className="container">
-    <p className="section-label">PHOTOS</p>
-
-    <h2>A Glimpse of Sigey</h2>
-
-    <p className="photos-intro">
-      A collection of selected photos and moments from Sigey Kunpage Enoch.
-    </p>
-
-    <div className="photos-grid">
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-01.jpg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-02.jpg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-03.jpg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-04.jpg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-05.jpg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-06.jpg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-07.jpeg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-08.jpeg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-09.jpeg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-
-      <div className="photo-card">
-        <img
-          src="/images/sigey-enoch-10.jpeg"
-          alt="Sigey Kunpage Enoch"
-          loading="lazy"
-        />
-      </div>
-    </div>
-  </div>
-</section>
       <a href="#contact" className="secondary-button">
         Contact Me
       </a>
